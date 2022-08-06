@@ -1,0 +1,39 @@
+.team {
+    text-align: center;
+}
+
+.team-description {
+    font-weight: 400;
+    font-size: 15px;
+    font-family: var(--roboto);
+    line-height: 1.2;
+    color: var(--text-color);
+    margin-top: 45px;
+    margin-bottom: 27px;
+}
+
+.team-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.team-list-item {
+    width: 380px;
+}
+
+.team-item-photo {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+.team-item-name {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.21;
+    margin-bottom: 11px;
+}
+
+.team-item-position {
+}

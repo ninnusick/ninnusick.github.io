@@ -1,0 +1,61 @@
+/* .box {
+    width: 350px;
+    position: relative;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+.box:hover::before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    right: -20px;
+    bottom: -20px;
+    background: linear-gradient(
+        180deg,
+        rgba(131, 58, 180, 0.8) 0%,
+        rgba(253, 29, 29, 0.8) 50%,
+        rgba(252, 176, 69, 0.8) 100%
+    );
+}
+
+.box:hover::before {
+    transition: all 1s;
+}
+
+html {
+    font-size: 20px;
+}
+
+.box-text {
+    font-size: 10px;
+}
+
+.text {
+    font-size: 1.5rem;
+} */
+
+/* .box {
+    height: 200px;
+    background: url(pexels-photo-11163123.webp) center / no-repeat;
+} */
+
+div {
+    height: 300px;
+    border: 2px solid #333;
+}
+
+.first-box {
+    background: url(./bg-01.jpg) center / cover no-repeat;
+    background-attachment: fixed;
+}
+
+.second-box {
+    background: url(./bg-02.jpg) center / cover no-repeat;
+    background-attachment: fixed;
+}

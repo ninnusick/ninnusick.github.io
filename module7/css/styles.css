@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+:root {
+    --aqua-color: #95e1d3;
+    --main-hover-color: #f38181;
+    --title-color: #333333;
+    --text-color: #b6b6b6;
+    --white-color: #fff;
+    --yellow-color: #fce38a;
+
+    --kaushan: 'Kaushan Script', cursive;
+    --montserrat: 'Montserrat', sans-serif;
+    --roboto: 'Roboto', sans-serif;
+}
+
+.header {
+    font-family: var(--montserrat);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+}
+
+.logo-link {
+    color: var(--aqua-color);
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 1.23;
+}
+
+.menu {
+}
+
+.menu-list {
+    display: flex;
+}
+
+.menu-list-item {
+    margin-right: 55px;
+}
+
+.menu-list-item:last-child {
+    margin-right: 0;
+}
+
+.menu-item-link {
+    color: var(--aqua-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.21;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+.menu-item-link:hover {
+    color: var(--main-hover-color);
+    border-bottom: 3px solid var(--main-hover-color);
+}
+
+/* services */
+
+.main {
+}
+
+.services {
+    text-align: center;
+}
+
+.section-subtitle {
+    font-family: var(--kaushan);
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.45;
+    display: block;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 30px;
+    line-height: 1.23;
+    display: block;
+}
+
+.section-title::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 4px;
+    background-color: var(--main-hover-color);
+    margin: 40px auto 0;
+}
+
+.services-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.services-list-item {
+    text-align: left;
+    display: flex;
+    align-items: flex-start;
+    width: 335px;
+}
+
+.services-list-item:nth-child(-n + 3) {
+    margin-bottom: 0;
+}
+
+.service-item-icon {
+    display: block;
+    width: 37px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.services-item-title {
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 1.21;
+}
+
+.service-item-text {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.47;
+    font-family: var(--roboto);
+    color: var(--text-color);
+}

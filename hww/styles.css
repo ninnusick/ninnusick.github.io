@@ -1,0 +1,7 @@
+:link:hover {
+    outline: dotted red;
+}
+
+.foo:hover {
+    background: gold;
+}

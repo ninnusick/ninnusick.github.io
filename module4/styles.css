@@ -1,0 +1,45 @@
+.menu a {
+    color: blueviolet;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    color: blue;
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* selector dytyny */
+.main-menu > li {
+    color: tomato;
+}
+
+.submenu a {
+    color: burlywood;
+}
+
+/* selector atrybutu */
+a[title] {
+    text-transform: uppercase;
+}
+a[title='title facebook'] {
+    color: aquamarine;
+}
+
+/* selector susida */
+.secondary-text + p {
+    color: red;
+}
+
+/* psevdo-classes :hover */
+
+.link:hover {
+    color: brown;
+}
+
+.link:active {
+    color: red;
+}

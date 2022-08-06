@@ -1,77 +1,52 @@
-.post{
-    padding: 20px;
-    max-width: 400px;
-    border: 2px dashed black;
-    border-top-width: 5px;
-    border-top-color: blue;
-    border-top-style: solid;
-    margin-top: 200px;
-}
-
-.container{
-    max-width: 400px;
-    height: 100px;
-    background-color: rgb(127, 255, 253);
-    padding: 15px auto;
-}
-
-.menu{
-    list-style: none;
-    margin: 0;
-    padding-left: 0;
-    background: #4fb4ee;
-    height: 50px;  
-
-}
-
-.menu a{
-    text-decoration: none;
-    background: #4fb4ee;
-    color: black;
-    padding: 0px 12px;
-    line-height: 50px;
-}
-
-.menu li{
-    display: inline-block;
-
-}
-
-.content{
-    width: 400px;
+.content {
+    width: 310px;
     border: 2px solid black;
     margin-top: 20px;
-    border-radius: 20px;
-    height: 350px;
+    border-radius: 10px;
+    height: 490px;
 }
 
-.content .fab{
+.content .fab {
     margin-top: 20px;
     font-size: 70px;
-    margin-left: 155px;
-    
+    margin-left: 115px;
 }
 
-.content h2{
-    font-size: 40px;
+.content h2 {
+    font-size: 35px;
     text-align: center;
 }
 
-.content p{
+.content p {
     font-size: 22px;
-    padding-left: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    text-align: center;
 }
 
-.content a{
+.content a {
     background: black;
     text-decoration: none;
     color: white;
-    margin-left: 110px;
+    margin-left: 80px;
     padding: 5px 25px;
     font-size: 22px;
-    border-radius: 10px;
+    border-radius: 30px;
+    cursor: pointer;
 }
 
-.content:hover{
-    
+.content:hover {
+    background-color: orange;
+    color: aliceblue;
+    border-color: red;
+}
+
+.card {
+    padding-left: 50px;
+}
+
+.content:hover a {
+    background-color: red;
+    color: lightcoral;
 }
