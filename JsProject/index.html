@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="./js.js" defer></script>
+    <script src="dino.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="dinocss.css">
+    <link rel="stylesheet" href="footer.css">
+
+  </head>
+  <body>
+    <main>
+      <div id="section">
+        <h3 class="popular">Популярні інетрактивні ігри</h3>
+        <hr />
+        <div class="card">
+          <h1 class="subtitle">Перевір в який рік ти народився</h1>
+
+          <div class="card-task">
+            <div class="inputIcon">
+              <i id="fa-search"></i>
+              <input type="text" id="yr" placeholder="Введіть рік народження" />
+            </div>
+            <p id="answerTask1"></p>
+          </div>
+        </div>
+        <hr/>
+
+
+        <div class="card">
+            <h1 class="subtitle">Вгадай число, яке загадав комп’ютер</h1>
+
+          <div class="card-task">
+            <div class="inputIcon">
+              <i id="fa-search2"></i>
+              <input type="text" id="nb" placeholder="Введіть число"/>
+            </div>
+            <p id="answerTask"></p>
+          </div>
+        </div>
+        <hr />
+        </div>
+          <!-- kira's part -->
+
+          <div id="dinoTask">
+          <div class="dino-container">
+            <h1 class="subtitle">Google динозавр</h3>
+            <canvas class="dino-canvas"></canvas>
+          </div>
+          </div>
+
+          <!-- kira's part -->
+
+          <div class="nmbrs">
+            <hr>
+            <h1 class="subtitle">Введіть 3 числа</h1>
+            <div class="nmbrsInput">
+              <input type="text" id="firstNmbrs" placeholder="Введіть число">
+              <input type="text" id="scndNmbrs" placeholder="Введіть число">
+              <input type="text" id="thirdNmbrs" placeholder="Введіть число">
+            </div>
+            <h6 class="descrNmbrs">Найбільше число, яке ви ввели - <p id="answerNmbrs"></p></h6>
+          </div>
+
+          
+      </div>
+    </main>
+    <footer>
+            <img class="footerImg" src="imgs/footerimg.png" alt="">
+            <div class="footerDivP"><p class="footerP">Тел: +38 (123) 456 78 90
+E-Mail: codingmagic@gmail.com
+Facebook: CodingMagic
+Twitter: CodingMagic
+Instagram: CodingMagic</p></div>
+            <div class="footerInput">
+              <input type="text" id="inpFtr" placeholder="Ваша ел. адреса...">
+              <button class="futSubscribe">Підписатись</button>
+              <p class="ftrLastP">*Підписавшись, Ви зможете ортимувати інформацію про новинки на сайті</p>
+            </div>
+
+          </footer>
+  </body>
+</html>
